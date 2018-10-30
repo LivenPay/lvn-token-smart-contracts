@@ -1,0 +1,33 @@
+{
+  "name": "erc223token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-bignumber": "^2.0.2",
+    "ganache-cli": "^6.1.8",
+    "solidity-coverage": "^0.5.11",
+    "truffle": "^4.1.14"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-bignumber": "^2.0.2",
+    "ethereumjs-abi": "^0.6.5",
+    "ganache-cli": "^6.1.8",
+    "solhint": "^1.2.1",
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.1.8",
+    "tn-truffle-test-utils": "^1.0.4",
+    "truffle": "^4.1.14"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "coverage": "./node_modules/.bin/solidity-coverage"
+  },
+  "author": "sebastian@flexapps.com",
+  "license": "ISC"
+}

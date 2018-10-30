@@ -1,0 +1,5 @@
+coverage.json
+node_modules/
+coverage/
+coverageEnv/
+scTopics
